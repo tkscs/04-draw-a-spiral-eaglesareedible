@@ -23,10 +23,13 @@ turtle.setheading(degrees)
 
 The turtle starts at position(0, 0) with heading 0 degrees.
 """
-
-### YOUR CODE STARTS HERE
-
-
-### YOUR CODE ENDS HERE
+firstArm = 2
+degreeCount = 0
+firstArm * (phi**(degreeCount / 90))
+   
+for i in range(150):
+    turtle.forward(firstArm * (phi**(degreeCount / 90)))
+    degreeCount = degreeCount+5
+    turtle.right(5)
 
 turtle.exitonclick()

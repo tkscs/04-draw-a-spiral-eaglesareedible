@@ -12,7 +12,9 @@ initial_arm_length * (phi**i)
 """
 
 ### YOUR CODE STARTS HERE
-
+for i in range(1, 50):
+    turtle.forward(1.618**i)
+    turtle.left(90)
 
 ### YOUR CODE ENDS HERE
 
