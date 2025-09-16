@@ -1,12 +1,23 @@
 import turtle
 
-"""
-Make a rectangular spiral (see the README.md for an example)
-"""
-
-### YOUR CODE STARTS HERE
-
-
-### YOUR CODE ENDS HERE
+turtle.forward(1)
+turtle.left(90)
+turtle.forward(1)
+turtle.left(90)
+turtle.forward(2)
+turtle.left(90)
+turtle.forward(3)
+turtle.left(90)
+turtle.forward(5)
+turtle.left(90)
+turtle.forward(13)
+turtle.left(90)
+turtle.forward(21)
+turtle.left(90)
+turtle.forward(34)
+turtle.left(90)
+turtle.forward(55)
+turtle.left(90)
+turtle.forward(89)
 
 turtle.exitonclick()
